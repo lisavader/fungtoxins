@@ -1,0 +1,32 @@
+site_name: FungToxins
+site_url: https://nbc.secondarymetabolites.org/fungtoxins/
+nav:
+  - Home: index.md
+  - Overview: overview.md
+theme:
+  name: material
+  favicon: img/fungtoxins_logo_standard.svg
+  logo: img/fungtoxins_logo_standard.svg
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      title: "Go to:"
+      toc_depth: "2"
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+extra:
+  generator: false
+extra_css:
+  - https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css
+  - stylesheets/extra.css
+extra_javascript:
+  - https://code.jquery.com/jquery-3.6.0.slim.min.js
+  - https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js
+  - javascripts/datatables.js
+  - javascripts/tablesort.js
+  - javascripts/toggle_collapsible.js

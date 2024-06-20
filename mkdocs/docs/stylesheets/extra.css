@@ -1,0 +1,159 @@
+:root {
+    --md-primary-fg-color: #2c98e0;
+    --md-typeset-a-color: #0059be;
+}
+
+.md-grid {
+    max-width: 80rem;
+}
+
+.md-header--shadow {
+    box-shadow: none;
+}
+
+.md-sidebar {
+    width: 10%;
+}
+
+.md-typeset h1 {
+    color: black;
+    font-weight: normal;
+    margin-bottom: 0.4em;
+}
+
+.md-typeset h2 + h3 {
+    color: black;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.md-typeset h2 {
+    color: black;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.md-typeset h3 {
+    color: black;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.md-typeset p {
+    overflow: hidden;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.md-typeset a {
+    word-break: normal;
+}
+
+.md-typeset__scrollwrap {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.md-typeset__table {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.md-typeset__table table:not([class]) {
+    display: table;
+    font-size: 15px;
+}
+
+.md-typeset__table table:not([class]) td,
+.md-typeset__table table:not([class]) th {
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.dataTables_scrollBody thead tr[role="row"]{
+    visibility: collapse !important;
+}
+
+.dataTables_filter {
+    float: left !important;
+    margin-bottom: 10px;
+}
+
+.dataTables_filter input {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 0px !important;
+}
+
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc {
+    background : none !important;
+}
+
+.dataTables_scroll {
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+.molecule_image {
+    margin-right: 30px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.break_all {
+    overflow-wrap: break-all;
+    word-wrap: break-all;
+    -ms-word-break: break-all;
+    word-break: break-all;
+}
+
+.indented_block {
+    margin-left: 1px;
+    padding-left: 15px;
+    border-left: 6px solid lightgray;
+    margin-bottom: 10px;
+}
+
+.section {
+    clear: both;
+    padding-top: 12px;
+}
+
+.subsection {
+    padding-bottom: 10px;
+}
+
+.warning_red {
+    color: #ee220f;
+}
+
+.warning_orange {
+    color: #ff7113;
+}
+
+span:target {
+    background-color: yellow;
+}
+
+input[type="checkbox"]{
+    -webkit-appearance: initial;
+    appearance: initial;
+    width: 15px;
+    height: 10px;
+}
+
+input[type="checkbox"]:after {
+    content: "\25BA";
+}
+
+input[type="checkbox"]:checked:after {
+    content: "\25BC";
+}
